@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Human BBY Web";
+}
+
+.main-header {
+  padding: 0 calc((100% - 78rem) / 2);
+  background-color: #0046be;
+}
+
+.top-links {
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 0;
+}
+
+.top-links ul {
+  display: flex;
+  color: white;
+  font-weight: 400;
+  list-style-type: none;
+  gap: 8px;
+}
+
+.top-links ul li {
+  cursor: pointer;
+}
+
+.logo-and-search {
+  display: flex;
+  gap: 3rem;
+}
+
+.logo-and-search svg {
+  width: 82px;
+  height: 48px;
+}
+
+.site-searchbox input {
+  height: 100%;
+  padding: 0 1rem;
+  outline: none;
+}
+
+.account-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.account-links .links ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.account-links .links ul {
+  list-style-type: none;
+  color: white;
+  fill: white;
+}
+.account-links .links ul li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.account-links .links svg {
+  width: 24px;
+  height: 24px;
+}
+
+.main-links {
+  background-color: #003da6;
+  /* padding: 1rem; */
+  padding: 1rem calc((100% - 78rem) / 2);
+}
+
+.main-links ul {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.main-links ul li {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+
+.main-links svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+.brief-info {
+  max-width: 78rem;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.brief-info h3 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: 400;
+}
+
+.brief-info .banner {
+  position: relative;
+}
+
+.brief-info .watch-party-sale {
+  position: absolute;
+  right: 37%;
+  top: 30%;
+}
+
+.filter-and-posts {
+  max-width: 78rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 275px 1fr;
+  gap: 1.5rem;
+}
+
+.filter-and-posts aside {
+  border-right: 2px solid #e0e6ef;
+}
+
+.filter-and-posts aside ul li {
+  height: 3.5rem;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e6ef;
+  padding-right: 1rem;
+}
+
+.filter-and-posts aside ul li:hover {
+  background: #e1e7ef;
+  color: #0b4dbf;
+  cursor: pointer;
+}
+
+.filter-and-posts aside ul svg {
+  width: 20px;
+  height: 20px;
+  fill: #55555a;
+  padding-right: 1px;
+}
+
+.link-with-alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
