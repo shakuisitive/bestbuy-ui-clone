@@ -2,3 +2,4 @@ CSS has never been my strongest suit. I've always focused on backend development
 
 This project was a way to reinforce my learning and improve my CSS skills.
 
+Check it out here: https://shakirhassan-bestbuyclone.netlify.app/
